@@ -26,6 +26,16 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Quick Job'),
+        bottom: PreferredSize(
+            child: Row(
+              children: [
+                Text('data'),
+                Text('data'),
+                Text('data'),
+                Text('data'),
+              ],
+            ),
+            preferredSize: Size.fromHeight(4.0)),
       ),
       body: Container(
         child: Text('Welcome to Quick JOB'),
