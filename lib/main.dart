@@ -35,7 +35,7 @@ class Home extends StatelessWidget {
               style: TextStyle(fontSize: 18),
             ),
             Text(
-              "Stay Connected with us",
+              "Stay Connected ",
               style: TextStyle(fontSize: 12),
             )
           ],
