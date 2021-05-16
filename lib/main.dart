@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.green,
       ),
       home: Home(),
     );
@@ -23,8 +23,13 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text('Hello'),
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Quick Job'),
+      ),
+      body: Container(
+        child: Text('Welcome to Quick JOB'),
+      ),
     );
   }
 }
