@@ -29,9 +29,7 @@ class Home extends StatelessWidget {
         bottom: PreferredSize(
             child: Row(
               children: [
-                Text('data'),
-                Text('data'),
-                Text('data'),
+              
                 Text('data'),
               ],
             ),
